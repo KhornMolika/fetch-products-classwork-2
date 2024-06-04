@@ -21,7 +21,7 @@ export const CardComponent = (product) => {
   </a>
     <p class="mb-3 font-normal text-slate-800">${name || "No product title"}</p>
     <p class="mb-3 font-normal text-slate-800">${_id || "No product id"}</p>
-    < class="mb-3 font-normal text-slate-800">$
+    <p class="mb-3 font-normal text-slate-800">$
       ${minPrice || "no min price"}
     </
   </div>
