@@ -1,6 +1,6 @@
 export const CardComponent = (product) => {
   const {
-    title,
+    name,
     mainImage,
     _id,
     price: { minPrice, maxPrice },
@@ -21,9 +21,9 @@ export const CardComponent = (product) => {
   </a>
     <p class="mb-3 font-normal text-slate-800">${name || "No product title"}</p>
     <p class="mb-3 font-normal text-slate-800">${_id || "No product id"}</p>
-    <p class="mb-3 font-normal text-slate-800">
+    < class="mb-3 font-normal text-slate-800">$
       ${minPrice || "no min price"}
-    </p>
+    </
   </div>
 </div>
   `;
